@@ -15,18 +15,18 @@ cd ~/.config/
 git clone https://github.com/thiagochirana/neovim-plugins.git
 ```
 
-probably these action create a dir called "neovim-plugins". So, move all archives a previous dir and delete the new dir:
+These action create a dir called "neovim-plugins". So, just rename the folder to 'nvim' :
 
 ```
-cd neovim-plugins
-mv . ..
-cd ..
-rm neovim-plugins
+mv neovim-plugins nvim
 ```
+
+and voalá!
+
+Accessing the dir, it looks like this:
 
 So, the directory will be like this:
 
 ![image](https://github.com/user-attachments/assets/041e2664-a20e-4012-8e9b-97968b9e2cbc)
-
 
 ### that's it!
